@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+ //import { Component } from "react";
+ //import Img from "../src/myphoto.jpg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ //class App extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       //number:1,
+//       show: true,
+//       Person: {
+//         fullName: "Safa Tormane",
+//         bio: "Beauty, Travel",
+//         imgSrc: Img,
+//         profession: "Student in GMC",
+//       },
+//     };
+//     this.clickHandler = this.clickHandler.bind(this);
+//   }
 
-export default App;
+//   clickHandler() {
+//     this.setState(function (prevState) {
+//       return {
+//         show: !prevState.show,
+//       };
+//     });
+//   }
+
+//   render() {
+//     if (this.state.show)
+//       return (
+//         <div className="container">
+//           <button className="btn btn-primary" onClick={this.clickHandler}>
+//             Hide
+//           </button>
+//           <br />
+//           <img src={Img} alt="image personel" width="400" height="430" />
+//           <h1>{this.state.Person.fullName}</h1>
+//           <h2>{this.state.Person.bio}</h2>
+//           <h2>{this.state.Person.profession}</h2>
+//         </div>
+//       );
+//     else
+//       return (
+//         <div className="container">
+//           <button className="btn btn-primary" onClick={this.clickHandler}>
+//             Show
+//           </button>
+//         </div>
+//       );
+//   }
+// }
+
+// export default App;
+
